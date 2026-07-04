@@ -1,0 +1,1 @@
+# requirements.txt — Python dependency list: FastAPI, uvicorn, motor, neo4j, pydantic, httpx, python-dotenv, and testing libraries

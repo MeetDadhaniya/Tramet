@@ -1,0 +1,1 @@
+# ci.yml — GitHub Actions CI workflow: runs linting, tests, and build checks on pull requests and pushes to main branch

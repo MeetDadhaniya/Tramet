@@ -1,0 +1,11 @@
+# .gitignore — Specifies files and directories that Git should ignore (node_modules, .env, __pycache__, build artifacts, etc.)
+
+node_modules/
+dist/
+build/
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store

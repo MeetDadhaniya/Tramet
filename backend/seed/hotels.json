@@ -1,0 +1,4 @@
+{
+  "_comment": "Seed data: sample hotel listings with names, locations, ratings, prices, and amenities for demo/hackathon purposes",
+  "hotels": []
+}
