@@ -1,1 +1,25 @@
-# requirements.txt — Python dependency list: FastAPI, uvicorn, motor, neo4j, pydantic, httpx, python-dotenv, and testing libraries
+# requirements.txt — Python dependency list for Tramet backend
+
+# ── Web Framework ────────────────────────────────────────────────
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+
+# ── Data Validation & Settings ───────────────────────────────────
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+
+# ── Databases ────────────────────────────────────────────────────
+motor>=3.6.0              # async MongoDB driver
+neo4j>=5.26.0             # Neo4j Python driver
+
+# ── HTTP Client ──────────────────────────────────────────────────
+httpx>=0.28.0
+
+# ── Utilities ────────────────────────────────────────────────────
+python-dotenv>=1.0.0      # .env file loading (used by pydantic-settings)
+python-multipart>=0.0.18  # form/file uploads in FastAPI
+
+# ── Testing ──────────────────────────────────────────────────────
+pytest>=8.3.0
+pytest-asyncio>=0.24.0
+httpx                     # also used as async test client
